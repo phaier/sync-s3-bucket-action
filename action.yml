@@ -1,0 +1,15 @@
+name: '@phaier/sync-s3-bucket-action'
+description: 'GitHub Action for Sync S3 Bucket'
+inputs:
+  src:
+    description: 'src dir'
+    required: true
+  bucket-uri:
+    description: 'S3 Bucket Uri'
+    required: true
+  region:
+    description: 'S3 Bucket Region'
+    required: true
+runs:
+  using: 'node20'
+  main: 'index.js'

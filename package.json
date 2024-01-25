@@ -1,0 +1,28 @@
+{
+  "name": "@phaier/sync-s3-bucket-action",
+  "version": "1.0.0",
+  "description": "GitHub Action for Sync S3 Bucket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phaier/sync-s3-bucket-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phaier/sync-s3-bucket-action/issues"
+  },
+  "homepage": "https://github.com/phaier/sync-s3-bucket-action#readme",
+  "volta": {
+    "node": "20.11.0"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.1",
+    "@actions/github": "^6.0.0",
+    "@aws-sdk/client-s3": "^3.499.0"
+  }
+}
