@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "react",
+    "removeComments": true,
+    "typeRoots": ["node_modules/@types"],
+    "newLine": "LF",
+    "sourceMap": true,
+    "lib": [],
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "baseUrl": "./",
+    "paths": {
+      "#/*": ["src/*"]
+    }
+  },
+  "include": ["./src/**/*.ts", "./src/**/*.tsx"],
+  "exclude": ["./node_modules/**/*.ts", "./node_modules/**/*.tsx", "./typings/**/*.ts"]
+}
